@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:textColor="#CF0A0A"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:id="@+id/etMaLoaiSachDialog"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:hint=" Mã Loại Sách" />
+
+    <EditText
+        android:textColor="#CF0A0A"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:id="@+id/etTenLoaiSachDialog"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint=" Tên Loại Sách" />
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btnSaveLS"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="#562B08"
+            android:text="save" />
+
+        <Button
+            android:backgroundTint="#562B08"
+            android:layout_marginLeft="60dp"
+            android:id="@+id/btnCancelLS"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="cancel" />
+    </LinearLayout>
+</LinearLayout>

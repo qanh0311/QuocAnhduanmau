@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:textColor="#CF0A0A"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:id="@+id/etMaTTDialog"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:hint=" Mã Thành Viên" />
+
+    <EditText
+        android:textColor="#CF0A0A"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:id="@+id/etTenTTDialog"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:minHeight="48dp"
+        android:hint=" Tên Thành Viên" />
+
+    <EditText
+        android:textColor="#CF0A0A"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:id="@+id/etNamSinhDialog"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:minHeight="48dp"
+        android:hint=" Năm Sinh Thành Viên" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnSavee"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="#562B08"
+            android:text="save" />
+
+        <Button
+            android:id="@+id/btnCancell"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#562B08"
+            android:layout_marginLeft="60dp"
+            android:text="cancel" />
+    </LinearLayout>
+</LinearLayout>

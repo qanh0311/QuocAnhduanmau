@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+       <item android:title="Quản Lý">
+           <menu >
+               <item
+                   android:id="@+id/nav_phieuMuon"
+                   android:icon="@drawable/loamnnn"
+                   android:title="Quản Lý Phiếu Muọn" />
+               <item
+                   android:id="@+id/nav_sach"
+                   android:icon="@drawable/ic_baseline_menu_book_24"
+                   android:title="Quản Lý Sách" />
+               <item
+                   android:id="@+id/nav_loaiSach"
+                   android:icon="@drawable/ic_baseline_book_24"
+                   android:title="Quản Lý Loại Sách" />
+               <item
+                   android:id="@+id/nav_thanhVien"
+                   android:icon="@drawable/ic_baseline_people_24"
+                   android:title="Quản Lý Thành Viên" />
+           </menu>
+       </item>
+    </group>
+
+    <group >
+        <item android:title="Thống Kê">
+            <menu >
+                <item
+                    android:id="@+id/nav_top10"
+                    android:icon="@drawable/top1"
+                    android:title="Top 10 Sách Mượn Nhiều Nhất" />
+                <item
+                    android:id="@+id/nav_doanhThu"
+                    android:icon="@drawable/doanhthu"
+                    android:title="Doanh Thu" />
+            </menu>
+        </item>
+    </group>
+
+    <group >
+        <item android:title="Người Dùng">
+            <menu >
+                <item
+                    android:id="@+id/nav_doiMK"
+                    android:icon="@drawable/ic_baseline_vpn_key_24"
+                    android:title="Đổi Mật Khẩu" />
+                <item
+                    android:id="@+id/nav_themTK"
+                    android:icon="@drawable/ic_baseline_vpn_key_24"
+                    android:title="Thêm Tài Khoản" />
+                <item
+                    android:id="@+id/nav_out"
+                    android:icon="@drawable/out"
+                    android:title="Đăng Xuất" />
+            </menu>
+        </item>
+    </group>
+</menu>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:textColor="#CF0A0A"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:id="@+id/etMaPMDialog"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:hint=" Mã phiếu mượn" />
+
+    <Spinner
+        android:id="@+id/spinnerLSPM"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/action_settings"
+        android:minHeight="48dp" />
+    <Spinner
+        android:id="@+id/spinnerTVPM"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/action_settings"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:textColor="#749F82"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:id="@+id/etNgayMuonDialog"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:minHeight="48dp"
+        android:hint=" Ngày Mượn" />
+
+    <TextView
+        android:textColor="#749F82"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:id="@+id/etTienThueDialog"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:hint=" Tiền Thuê"
+        android:minHeight="48dp" />
+
+    <CheckBox
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/checkBoxPM"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Đã trả sách" />
+
+   <LinearLayout
+       android:layout_width="300dp"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+       <Button
+           android:id="@+id/btnSavePM"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="20dp"
+           android:backgroundTint="#562B08"
+           android:text="save" />
+
+       <Button
+           android:backgroundTint="#562B08"
+           android:layout_marginLeft="60dp"
+           android:id="@+id/btnCancelPM"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:text="cancel" />
+   </LinearLayout>
+</LinearLayout>
